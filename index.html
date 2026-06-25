@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Central da Bola</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#222;
+}
+
+header{
+    background:
+    linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+    url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1600');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.logo{
+    font-size:50px;
+    font-weight:700;
+}
+
+.logo span{
+    color:#00d26a;
+}
+
+.slogan{
+    margin-top:10px;
+    font-size:18px;
+}
+
+nav{
+    background:#0c0c0c;
+    padding:15px;
+    text-align:center;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:600;
+}
+
+nav a:hover{
+    color:#00d26a;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.section-title{
+    text-align:center;
+    margin:40px 0 20px;
+    color:#0a7d32;
+}
+
+.news-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 3px 12px rgba(0,0,0,.1);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.results{
+    background:#0a7d32;
+    color:white;
+    padding:40px 20px;
+    margin-top:40px;
+}
+
+.match{
+    background:rgba(255,255,255,.1);
+    padding:15px;
+    margin:10px 0;
+    border-radius:8px;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:50px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <div class="logo">⚽ CENTRAL <span>DA BOLA</span></div>
+    <p class="slogan">Toda a paixão do futebol num só lugar</p>
+</header>
+
+<nav>
+    <a href="#">Início</a>
+    <a href="#">Notícias</a>
+    <a href="#">Resultados</a>
+    <a href="#">Vídeos</a>
+    <a href="#">Classificações</a>
+    <a href="#">Contacto</a>
+</nav>
+
+<div class="container">
+
+<h2 class="section-title">🔥 Notícias em Destaque</h2>
+
+<div class="news-grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=800" alt="">
+<div class="card-content">
+<h3>Benfica inicia nova temporada</h3>
+<p>Os encarnados arrancam os trabalhos com ambição renovada para conquistar títulos.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=800" alt="">
+<div class="card-content">
+<h3>Seleção de Cabo Verde em destaque</h3>
+<p>Os Tubarões Azuis continuam a encantar os adeptos com exibições de grande nível.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1508098682722-e99c643e7485?w=800" alt="">
+<div class="card-content">
+<h3>Mercado de transferências</h3>
+<p>Acompanhe todas as entradas e saídas dos principais clubes do mundo.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<section class="results">
+
+<div class="container">
+
+<h2>⚽ Últimos Resultados</h2>
+
+<div class="match">
+🇧🇷 Brasil 3 - 0 Escócia 🏴
+</div>
+
+<div class="match">
+🇲🇦 Marrocos 4 - 2 Haiti 🇭🇹
+</div>
+
+<div class="match">
+🇨🇻 Cabo Verde - Próximo jogo em destaque
+</div>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Central da Bola | Notícias, Resultados e Futebol Mundial</p>
+</footer>
+
+</body>
+</html>
